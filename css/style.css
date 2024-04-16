@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+    min-width: 100%;
+    font-size: 1.2rem;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxes{
+    max-width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: .6rem solid black;
+    border-radius: 2rem;
+}
+.box:hover{
+    filter: brightness(125%);
+}
+.red{
+    background-color: rgb(217, 38, 74);
+}
+.blue{
+    background-color: royalblue;
+}
+.orange{
+    background-color: darkorange;
+}
+.green{
+    background-color: greenyellow;
+}
+.flash{
+    background-color: white;
+}
